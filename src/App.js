@@ -10,6 +10,7 @@ import SubjectIcon from '@material-ui/icons/Subject';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import Divider from '@material-ui/core/Divider';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 import {
   BrowserRouter as Router,
@@ -55,6 +56,7 @@ function Home() {
           <Typography style={{padding:"20px", color:"white"}}variant="h4">My Name is Christian Lanzer</Typography>
           <Button startIcon={<SubjectIcon/>} style={{margin:"10px"}}variant="contained" color="default" component={Link} to={"/Resume"}>Resume</Button>
           <Button startIcon={<LinkedInIcon/>} style={{margin:"10px"}}variant="contained" color="default" className={"App-link"} onClick={() => {window.open("https://www.linkedin.com/in/christian-lanzer-5415a092/")}}>LinkedIn</Button>
+          <Button startIcon={<GitHubIcon/>} style={{margin:"10px"}}variant="contained" color="default" className={"App-link"} onClick={() => {window.open("https://github.com/calanzer")}}>GitHub</Button>
       </body>
       <Footer>
       </Footer>  
