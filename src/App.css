@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  min-height:100vh;
+  background-color: #2a3439;
+  color: #2a3439;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-body {
+  background-color: #2a3439;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #2a3439;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  font-family:"roboto"
+}
+
+.Resume-text {
+  padding-left: 1vh;
+  font-size: calc(10px + 2vmin);
+  margin: 0px;
+  white-space: pre-line;
+}
+
+.Resume-header {
+  background-color: #2a3439;
+  min-height: 10vh;
+  color: #2a3439;
+  display: flex;
+  flex-direction: column;
+  padding:2vh;
+ 
+}
+
+.App-link {
+  color: white;
+  text-decoration: none;
+  padding-left: 1vh;
+  font-size: calc(10px + 2vmin);
+}
+
+.Icon{
+  font-size: calc(10px + 2vmin);
+  position: absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+
